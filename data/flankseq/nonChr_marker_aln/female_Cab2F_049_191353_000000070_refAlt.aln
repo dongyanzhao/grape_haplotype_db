@@ -1,0 +1,10 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+s0001_female_Cab2F_049_191353_00      ATAACACAAGACAGGMTTGAACAAGGCATTCCCAGATAATYATGCCGAACTATGAATTTG
+s0002_female_Cab2F_049_191353_00      ATAACACAAGACAGGMTTGAACAAGGCATTCCCAGATAATYATGCCGAACTATGAATTTG
+                                      ************************************************************
+
+s0001_female_Cab2F_049_191353_00      AAAATTCCCTAAAGAAAAAGGTATCACCAGGCTGGTTCAGTGTAATYGG
+s0002_female_Cab2F_049_191353_00      AAAATTCCCTAAAGAAAAAGGTACCACCAGGCTGGTTCAGTGTAATYGG
+                                      *********************** *************************

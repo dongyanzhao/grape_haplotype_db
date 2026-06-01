@@ -1,0 +1,109 @@
+Wed Feb 11 17:01:40 EST 2026
+
+# 1). Prepare 180bp flanking sequences of Ref and Alt alleles from Marker IDs
+  # Processed separately because there are IUPAC codes in the probe design file
+  # If there is already a SNP ID LUT, provide "N" in the command line
+
+# 2). Update snpIDs in DArTag report
+  # Updating SNP IDs in MADC report
+Number of SNP IDs in the lookup table: 2984
+  # Markers not in lookup table and their associated MADC records are not written to the output: 47
+AGL11Exon7_000000071    
+AGL11Exon7_000000109    
+Male_Cab2F_049_253572_site77    
+Male_YABBY_Cab2F_049_250081_site53    
+Muscat_CM_000000127    
+P1_apt3_7641402_1002_VariantMasked_000000112    
+REN11_Chr15__13469156-13469266_site56    
+REN11_Chr15__13735991-13736101_site56    
+REN12_Chr13__25250524-25250634_site56    
+REN39_Chr15__2434436-2434546_site56    
+REN39_Chr15__746447-746557_site56    
+REN39_Chr15__9567274-9567384_site56    
+REN4_PsGc31_908942_000000159    
+REN4_Y522chr18_36527479_site56    
+REN6_390_chr9__8945883-8945993_site56    
+REN6_390dirNoirv2chr9_8943348-8943458site56    
+RPV10L_Chr9__3281431-3281541_site56    
+RPV3_dir_chr18_29426205-29426916_site56    
+RPV3_dir_chr18_29445344-29445471_site63    
+RUN1_chr12__18369459_100_site60    
+RUN1_chr12__18378295_100_site50    
+ScLoKvP_762_RUN1_49721_000000163    
+ScLoKvP_762_RUN1_50011_000000158    
+TA_1_7636634_1002_VariantMasked_000000058    
+TA_1_7639706_1002_VariantMasked_000000129    
+TA_1_7644532_1002_VariantMasked_000000121    
+TA_1_7693734_1002_VariantMasked_000000083    
+TA_1_7694230_1002_VariantMasked_000000175    
+TA_1_7694762_1002_VariantMasked_000000133    
+TA_1_7699458_1002_VariantMasked_000000164    
+TA_1_7807815_1002_VariantMasked_000000166    
+TA_1_7814063_1002_VariantMasked_000000202    
+TA_1_7816326_1002_VariantMasked_000000097    
+TA_1_7820356_1002_VariantMasked_000000077    
+TA_1_7861327_1002_VariantMasked_000000199    
+TA_1_7905085_1002_VariantMasked_000000162    
+TA_1_7906196_1002_VariantMasked_000000069    
+TA_1_7907053_1002_VariantMasked_000000063    
+chr13_016075765    
+chr13_027057798    
+chr15_020072353    
+chr17_017142822    
+chr18_029482967    
+chr18_034467440    
+female_Cab2F_049_191353_site70    
+female_INP_indel_site56    
+hap1_chr9_994625-995983_1080-1380_000000140
+
+# 3). Extract amplicon sequences of Ref and Alt alleles from DArTag report and generate MATCH allele LUT
+  # Number of marker loci containing IUPAC codes:  93
+
+# 4). BLAST Ref and Alt amplicon sequences from DArTag report to the xx bp flanking sequences
+
+# 5). Determine alignment orientation between amplicon vs. f180-bp, based on which update the f180-bp sequences
+  # Running db05_determine_alleleOri_from_blast_AND_update_f180bp_v1.py on /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_P00_validation/data/Report-DG25-10632_Margaret_6plates/DG25-10632_MADC_flipRefAlt_snpID_ref_alt_amplicons.fa.f300bp.bn
+  # Number of Ref and Alt alleles:  5968
+  # Number of marker loci on PLUS strand:  1480
+  # Number of marker loci on MINUS strand:  1504
+
+# 6). Rerun BLAST against the updated flankseq sequences
+
+
+Building a new DB, current time: 02/11/2026 17:01:50
+New DB name:   /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/flankseq/20250904-Grape_3K_DArTag_probe_rm4Dup_hyphenAnno_rm3nonMatch_rm5miss_chrMarkers_lut_f300bp_sfetchKeys_ref_alt_rev.fa
+New DB title:  /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/flankseq/20250904-Grape_3K_DArTag_probe_rm4Dup_hyphenAnno_rm3nonMatch_rm5miss_chrMarkers_lut_f300bp_sfetchKeys_ref_alt_rev.fa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/flankseq/20250904-Grape_3K_DArTag_probe_rm4Dup_hyphenAnno_rm3nonMatch_rm5miss_chrMarkers_lut_f300bp_sfetchKeys_ref_alt_rev.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5968 sequences in 0.126368 seconds.
+
+
+
+# 7). Get sfetch keys for the amplicons (because the 3 end of some amplicons are inaccurate)
+  # Running db07_generate_ref_alt_sfetch_keys_from_blast_v1.1.py on /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_P00_validation/data/Report-DG25-10632_Margaret_6plates/DG25-10632_MADC_flipRefAlt_snpID_ref_alt_amplicons.fa.f300bp_rev.bn
+  # Extract unique hits for queries
+     # Number of ref blast_unique:  2984
+     # Number of alt blast_unique:  2984
+  # Total records written out:  5968
+
+# 8). Get the amplicon sequences from the flanking sequences
+Creating SSI index for /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/flankseq/20250904-Grape_3K_DArTag_probe_rm4Dup_hyphenAnno_rm3nonMatch_rm5miss_chrMarkers_lut_f300bp_sfetchKeys_ref_alt_rev.fa...    done.
+Indexed 5968 sequences (5968 names).
+SSI index written to file /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/flankseq/20250904-Grape_3K_DArTag_probe_rm4Dup_hyphenAnno_rm3nonMatch_rm5miss_chrMarkers_lut_f300bp_sfetchKeys_ref_alt_rev.fa.ssi
+
+# 9) Copy allele fasta and match count lut to db directory
+
+# 10) Make blastdb
+
+
+Building a new DB, current time: 02/11/2026 17:02:00
+New DB name:   /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/flankseq/chr_marker/grape_chrMarkers_allele_db_v001.fa
+New DB title:  /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/flankseq/chr_marker/grape_chrMarkers_allele_db_v001.fa
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5968 sequences in 0.109306 seconds.
+
+

@@ -1,0 +1,27 @@
+##fileformat=VCFv4.3
+##reference=file:PN40024_assembly_v2_upper.fa
+##contig=<ID=chr01,length=24233538>
+##contig=<ID=chr02,length=18891843>
+##contig=<ID=chr03,length=20695524>
+##contig=<ID=chr04,length=24711646>
+##contig=<ID=chr05,length=25650743>
+##contig=<ID=chr06,length=22645733>
+##contig=<ID=chr07,length=27355740>
+##contig=<ID=chr08,length=22550362>
+##contig=<ID=chr09,length=23006712>
+##contig=<ID=chr10,length=23503040>
+##contig=<ID=chr11,length=20118820>
+##contig=<ID=chr12,length=24269032>
+##contig=<ID=chr13,length=29075116>
+##contig=<ID=chr14,length=30274277>
+##contig=<ID=chr15,length=20304914>
+##contig=<ID=chr16,length=23572818>
+##contig=<ID=chr17,length=18691847>
+##contig=<ID=chr18,length=34568450>
+##contig=<ID=chr19,length=24695667>
+##contig=<ID=chr00,length=27389308>
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=ADS,Number=R,Type=Integer,Description="Depths for the ref and each alt allele in the order listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=RA,Number=1,Type=String,Description="Reference allele read depth">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">

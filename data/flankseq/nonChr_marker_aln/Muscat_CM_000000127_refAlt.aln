@@ -1,0 +1,10 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+s0001_Muscat_CM_000000127|Ref      ACCATGTGAAAAAGCTCAGCCTCATCAGCAGGAGCCATCACCACCATGTTTGGAAGGCAA
+s0002_Muscat_CM_000000127|Alt      ACCATGTGAAAAAGCTCAGCCTCATCAGCAGGAGCCATCACCACCATGTTTGGAAGGCAA
+                                   ************************************************************
+
+s0001_Muscat_CM_000000127|Ref      TCCATGAAAGYRACATCAAAAGCTCCACAATGTGTTGGGCCRTCTGCTC
+s0002_Muscat_CM_000000127|Alt      CCCATGAAAGYRACATCAAAAGCTCCACAATGTGTTGGGCCRTCTGCTC
+                                    ************************************************

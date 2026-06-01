@@ -1,0 +1,41 @@
+Panel_markerID,MarkerID,Chr,Pos,Ref,Alt,Type,Indel_pos,Comments,Category,Mb_Region,Ref_category,ReferenceGenome,Probe_design_Pos,,Amplicon_VariantPos,Amplicon_Ref,Amplicon_Alt
+AGL11Exon7_000000071,AGL11Exon7_000000071,AGL11Exon7,71,G,T,SNP,,genic,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,100,C,A
+hap1_chr9_994625-995983_1080-1380_000000140,hap1_chr9_994625-995983_1080-1380_000000140,hap1_chr9_994625-995983_1080-1380,140,C,T,SNP,,,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,60,G,A
+Male_Cab2F_049_253572_site77,Male_Cab2F_049_253572_000000077,Male_Cab2F_049_253572,77,A,G,SNP,,,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,53,T,C
+Muscat_CM_000000127,Muscat_CM_000000127,Muscat_CM,127,T,C,SNP,,,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,61,A,G
+P1_apt3_7641402_1002_VariantMasked_000000112,P1_apt3_7641402_1002_VariantMasked_000000112,P1_apt3_7641402_1002_VariantMasked,112,A,G,SNP,,,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,34,T,C
+REN39_Chr15__746447-746557_site56,REN39_Chr15__746447-746557_000000056,REN39_Chr15__746447-746557,56,A,G,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,70,T,C
+REN39_Chr15__9567274-9567384_site56,REN39_Chr15__9567274-9567384_000000056,REN39_Chr15__9567274-9567384,56,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,99,A,G
+REN6_390dirNoirv2chr9_8943348-8943458site56,REN6_390_Noirv2_chr9__8943348-8943458_000000056,REN6_390_Noirv2_chr9__8943348-8943458,56,C,A,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,107,G,T
+RPV10L_Chr9__3281431-3281541_site56,RPV10L_Chr9__3281431-3281541_000000056,RPV10L_Chr9__3281431-3281541,56,A,G,SNP,,rhAmpSeq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,46,T,C
+RUN1_chr12__18369459_100_site60,RUN1_chr12__18369459_100_000000060,RUN1_chr12__18369459_100,60,G,T,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,94,C,A
+ScLoKvP_762_RUN1_49721_000000163,ScLoKvP_762_RUN1_49721_000000163,ScLoKvP_762_RUN1_49721,163,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,35,G,A
+TA_1_7636634_1002_VariantMasked_000000058,TA_1_7636634_1002_VariantMasked_000000058,TA_1_7636634_1002_VariantMasked,58,A,G,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,81,T,C
+TA_1_7644532_1002_VariantMasked_000000121,TA_1_7644532_1002_VariantMasked_000000121,TA_1_7644532_1002_VariantMasked,121,C,A,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,47,G,T
+TA_1_7693734_1002_VariantMasked_000000083,TA_1_7693734_1002_VariantMasked_000000083,TA_1_7693734_1002_VariantMasked,83,C,T,SNP,,rhAmpSeq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,67,G,A
+TA_1_7694230_1002_VariantMasked_000000175,TA_1_7694230_1002_VariantMasked_000000175,TA_1_7694230_1002_VariantMasked,175,C,T,SNP,,rhAmpSeq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,80,G,A
+TA_1_7699458_1002_VariantMasked_000000164,TA_1_7699458_1002_VariantMasked_000000164,TA_1_7699458_1002_VariantMasked,164,A,G,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,35,T,C
+TA_1_7807815_1002_VariantMasked_000000166,TA_1_7807815_1002_VariantMasked_000000166,TA_1_7807815_1002_VariantMasked,166,A,C,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,30,T,G
+TA_1_7814063_1002_VariantMasked_000000202,TA_1_7814063_1002_VariantMasked_000000202,TA_1_7814063_1002_VariantMasked,202,T,A,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,59,A,T
+TA_1_7906196_1002_VariantMasked_000000069,TA_1_7906196_1002_VariantMasked_000000069,TA_1_7906196_1002_VariantMasked,69,A,G,SNP,,manually selected from rhAmpseq.vcf,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,105,T,C
+female_Cab2F_049_191353_site70,female_Cab2F_049_191353_000000070,female_Cab2F_049_191353,70,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,84,T,C
+female_INP_indel_site56,female_INP_indel_000000056,female_INP_indel,56,GAAGCCCT,G,Indel,103,"QTL_degenerative_seq; The indel is at the very end of the amplicon, therefore, I added TGACCTTG to the Ref allele to distinguish it from the Alt allele",QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,102,GAAGCCCTT,G
+Male_YABBY_Cab2F_049_250081_site53,Male_YABBY_Cab2F_049_250081_000000053,Male_YABBY_Cab2F_049_250081,53,G,C,SNP,,,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,94,G,C
+REN11_Chr15__13469156-13469266_site56,REN11_Chr15__13469156-13469266_000000056,REN11_Chr15__13469156-13469266,56,G,A,SNP,,Changed target pos from 77 to 76,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,67,G,A
+REN11_Chr15__13735991-13736101_site56,REN11_Chr15__13735991-13736101_000000056,REN11_Chr15__13735991-13736101,56,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,109,T,C
+REN12_Chr13__25250524-25250634_site56,REN12_Chr13__25250524-25250634_000000056,REN12_Chr13__25250524-25250634,56,A,G,SNP,,,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,73,A,G
+REN39_Chr15__2434436-2434546_site56,REN39_Chr15__2434436-2434546_000000056,REN39_Chr15__2434436-2434546,56,G,C,SNP,,,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,87,G,C
+REN4_PsGc31_908942_000000159,REN4_PsGc31_908942_000000159,REN4_PsGc31_908942,159,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,104,C,T
+REN4_Y522chr18_36527479_site56,REN4_Y522chr18_36527479_000000056,REN4_Y522chr18_36527479,56,G,T,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,30,G,T
+REN6_390_chr9__8945883-8945993_site56,REN6_390_chr9__8945883-8945993_000000056,REN6_390_chr9__8945883-8945993,56,G,A,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,62,G,A
+RPV3_dir_chr18_29426205-29426916_site56,RPV3_dir_chr18_29426205-29426916_000000056,RPV3_dir_chr18_29426205-29426916,56,T,A,SNP,,QTL_degenerative_seq; Lots of IUPAC throughout the amplicon,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,44,T,A
+RPV3_dir_chr18_29445344-29445471_site63,RPV3_dir_chr18_29445344-29445471_000000063,RPV3_dir_chr18_29445344-29445471,63,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,34,T,C
+RUN1_chr12__18378295_100_site50,RUN1_chr12__18378295_100_000000050,RUN1_chr12__18378295_100,50,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,35,T,C
+ScLoKvP_762_RUN1_50011_000000158,ScLoKvP_762_RUN1_50011_000000158,ScLoKvP_762_RUN1_50011,158,C,T,SNP,,Changed target pos from 58 to 56,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,34,C,A
+TA_1_7639706_1002_VariantMasked_000000129,TA_1_7639706_1002_VariantMasked_000000129,TA_1_7639706_1002_VariantMasked,129,T,C,SNP,,QTL_degenerative_seq,QTL,,nonRef,20241021-nonRef_primary_sequences_forDArT.fa,,,97,T,C
+TA_1_7694762_1002_VariantMasked_000000133,TA_1_7694762_1002_VariantMasked_000000133,TA_1_7694762_1002_VariantMasked,133,C,T,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,83,C,T
+TA_1_7816326_1002_VariantMasked_000000097,TA_1_7816326_1002_VariantMasked_000000097,TA_1_7816326_1002_VariantMasked,97,A,G,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,36,A,G
+TA_1_7820356_1002_VariantMasked_000000077,TA_1_7820356_1002_VariantMasked_000000077,TA_1_7820356_1002_VariantMasked,77,G,A,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,28,G,A
+TA_1_7861327_1002_VariantMasked_000000199,TA_1_7861327_1002_VariantMasked_000000199,TA_1_7861327_1002_VariantMasked,199,C,A,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,85,C,A
+TA_1_7905085_1002_VariantMasked_000000162,TA_1_7905085_1002_VariantMasked_000000162,TA_1_7905085_1002_VariantMasked,162,G,A,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,40,G,A
+TA_1_7907053_1002_VariantMasked_000000063,TA_1_7907053_1002_VariantMasked_000000063,TA_1_7907053_1002_VariantMasked,63,A,G,SNP,,NA,QTL,,nonRef,20240812-nonRef_sequences_forDArT.fa,,,36,A,G

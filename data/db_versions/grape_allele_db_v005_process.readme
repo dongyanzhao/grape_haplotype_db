@@ -1,0 +1,126 @@
+Mon Mar  9 15:10:33 EDT 2026
+
+ --- Scripts, files, and parameters used ---
+# Report: /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_P03_KomlanINRAE_1plate/data/DG25-11237_MADC_flipRefAlt.csv
+# First sample column: 17
+# Panel design length: 250
+# Sequencing length: 109
+# BLAST filtering thresholds: 80% coverage, 80% identity
+
+# 1). Update snpIDs to Chr_00xxxxxxx format in MADC
+  # This is necessary because marker IDs do not always follow the Chr_00xxxxxxx format
+Number of SNP IDs in the lookup table: 3024
+AGL11Exon7_000000109 not found in lookup table
+chr13_016075765 not found in lookup table
+chr13_027057798 not found in lookup table
+chr15_020072353 not found in lookup table
+chr17_017142822 not found in lookup table
+chr18_029482967 not found in lookup table
+chr18_034467440 not found in lookup table
+
+###### Start processing MADC file ######
+
+# 0). Remove duplicate tags.
+  # No duplicate tags file provided. Skipping duplicate tag removal step.
+
+# 2). Check if there are any duplicate alleles - same microhaplotypes with different IDs
+  # If there are duplicates, output the duplicates and stop running the pipeline
+[INFO] There are no duplicated alleles in this MADC report
+
+  # No duplicates found in MADC file
+
+# 3). Filter alleles with missing data and generate RefMatch and AltMatch allele fasta and a temporary report
+[INFO] Extract RefMatch, AltMatch, and Other alleles for determining allele identity and assigning IDs
+[INFO] Retain an allele based on whichever is smaller below:
+[INFO]   * At least 10 samples, each having >= 2 reads
+[INFO]   * At least 5% samples, each having >= 2 reads
+[INFO] Number of non-Ref/Alt allele DISCARDED: 116
+[INFO] Number of non-Ref/Alt allele RETAINED: 7483
+
+#  4). Remove adapters using cutadapt
+  # Design length is greater than or equal to sequencing length. No need to run adaptor checking
+
+#  6a). First, create the BLAST database
+
+Building a new DB, current time: 03/09/2026 15:10:33
+New DB name:   /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v004.fa
+New DB title:  /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v004.fa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v004.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 63864 sequences in 1.08295 seconds.
+
+
+
+#  6b). BLAST RefMatch and AltMatch against the allele db
+
+#  7). Determine status of RefMatch and AltMatch and Assign fixed IDs to them
+
+---------
+[INFO] Processed on 2026-03-09, 15:11:03
+  # DArTag report with alleles assigned temporary names: /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_P03_KomlanINRAE_1plate/data/DG25-11237_MADC_flipRefAlt_snpID_tmp_rename.csv
+  # Counts of non-Ref/Alt alleles: /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v004_matchCnt_lut.txt
+  # Current fasta db containing existing alleles: /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v004.fa
+  # Use custom thresholds for coverage and identity:
+    - Minimum coverage threshold for BLASTN hits to be retained:  80.0
+    - Minimum identity threshold for BLASTN hits to be retained:  80.0
+
+[INFO] Number of unique BLAST queries written out: 7480
+
+[INFO] Analyze BLAST results of the non-Ref/Alt alleles in this report:
+  # Number of non-Ref/Alt alleles with fixed ID assigned: 7432
+    - Number already existing in the database: 5431
+    - Number of NEW alleles found in this report: 2001
+  # Number of alleles discarded because of low BLAST sequence coverage/identity: 48
+
+[INFO] Assign fixed allele IDs to non-Ref/Alt alleles in this report:
+
+[INFO] Report with fixed allele IDs assigned to non-Ref/Alt alleles:
+  # Number of non-Ref/Alt alleles assigned fixed IDs:  7432
+  # Number of non-Ref/Alt alleles discarded because of low coverage/identity or same sequences:  51 
+
+
+[INFO] Update match allele cnt LUT with new allele counts for RefMatch and AltMatch:
+  # Existing allele COUNT database:  /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v004_matchCnt_lut.txt
+  # Updated allele COUNT database:  /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005_matchCnt_lut.txt
+
+[INFO] Update allele SEQUENCE database (FASTA) with new non-Ref/Alt alleles:
+  # Existing allele SEQUENCE database: /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v004.fa
+    - Number of allele sequences in existing database: 63864
+  # Updated allele SEQUENCE database: /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005.fa
+    - Number of allele sequences in the updated database: 65865
+
+#  8). Check if there is a new version DB
+  # New version of db created after adding noval alleles.
+  /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005.fa
+
+
+Building a new DB, current time: 03/09/2026 15:11:04
+New DB name:   /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005.fa
+New DB title:  /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005.fa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 65865 sequences in 1.14948 seconds.
+
+
+
+#  9). Check if there are duplicates.  # If there are duplicates, retain only one allele of the duplicated ones
+# Number of microhaplotypes: 65865
+# Number of unique microhaplotypes: 65865
+# Number of microhaplotypes need removal: 0
+[]
+# No duplicate microhaplotypes in current db: /Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005.fa
+
+#  10). If there are duplicates in the new version DB, update MADC after removing duplicated alleles in db
+  # No duplicate alleles found in microhap db
+/Users/dongyan.zhao/PycharmProjects/BI/grape_dartag_00_microhaplotype_db/data/grape_allele_db_v005.fa
+
+#  11). Add version of the script to the MADC with fixed allele IDs
+  # Version added to as the first column of the output file.
+
+#  9). Tidy up files.
+
+###### Complete! #######

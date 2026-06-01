@@ -1,0 +1,15 @@
+# potato 4K DArTag panel microhaplotype db
+# files
+.DS_Store
+*.pptx
+*.bn
+*.fasta
+*.fq
+*.fastq
+
+
+# directory
+.idea/
+code
+data/ref
+notes

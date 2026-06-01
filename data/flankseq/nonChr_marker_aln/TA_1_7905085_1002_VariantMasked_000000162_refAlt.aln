@@ -1,0 +1,10 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+s0001_TA_1_7905085_1002_VariantM      ACAACCCAAAGGRAAGTCTCGCACAGCCGAAATGCCTCTGAAAYGCCAAGGAGGATAATA
+s0002_TA_1_7905085_1002_VariantM      ACAACCCAAAGGRAAGTCTCGCACAGCCGAAAWGCCTCTAAAAYGCSAAGGAGGATAATA
+                                      ******************************** ****** ****** *************
+
+s0001_TA_1_7905085_1002_VariantM      TTTGATTCTCTTCTCTTCCAAATCTTGCTCTGAAGTTTTTGATGGCTTC
+s0002_TA_1_7905085_1002_VariantM      TTTGATTCTYTTCTCTTCCAAATCTTGCTCTGAAGTTTTTGATGGCTTC
+                                      ********* ***************************************

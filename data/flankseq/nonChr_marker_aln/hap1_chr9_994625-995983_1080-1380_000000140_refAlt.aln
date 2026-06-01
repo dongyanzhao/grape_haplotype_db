@@ -1,0 +1,10 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+s0001_hap1_chr9_994625-995983_10      TATCATGTTGTTGCTGGTGATGCCCTTAAAGTATGCGTACTGTGACCAACAACTCCTGCC
+s0002_hap1_chr9_994625-995983_10      TATCATGTTGTTGCTGGTGATGCCCTTAAAGTATGCGTACTGTGACCAACAACTCCTGCT
+                                      *********************************************************** 
+
+s0001_hap1_chr9_994625-995983_10      CCACATCCTTTCCTCAGATTCCAGGGAAACTCTATTTTCCCTTATAAAT
+s0002_hap1_chr9_994625-995983_10      CCACATCCTTTCCTCAGATTCCAGGGAAACTCTATTTTCCCTTATAAAT
+                                      *************************************************

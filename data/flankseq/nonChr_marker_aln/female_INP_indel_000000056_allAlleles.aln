@@ -1,0 +1,10 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+s0001_female_INP_indel_000000056      ACACTCTTCTTCCACTTCTTCGCCGCGCCATGCTGTCCTCTTCTCCCAGTAATCTCTCCA
+s0002_female_INP_indel_000000056      ACACTCTTCTTCCACTTCTTCGCCGCGCCATGCTGTCCTCTTCTCCCAGTAATCTCTCCA
+                                      ************************************************************
+
+s0001_female_INP_indel_000000056      CCCACGTGGAGATGGTTCACCACCATTTYCAGGCCTACTACGAAGCCCT
+s0002_female_INP_indel_000000056      CCCACGTGGAGATGGTTCACCACCATTTYCAGGCCTACTACGGACCTYG
+                                      ****************************************** * *   
